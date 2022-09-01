@@ -1,0 +1,183 @@
+.container {
+    position: relative;
+    width: 1080px;
+    height: 1920px;
+    background: #ffffff;
+    margin-left: 5%;
+}
+
+.id{
+    box-sizing: border-box;
+    position: absolute;
+    width: 873px;
+    height: 60px;
+    left: 30px;
+    top: 333px;  
+    background: #FFFFFF;
+    border: 1px solid #000000;
+
+    font-size: 30px;
+}
+.id-label{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    top: 276px;
+    font-size: 30px;
+    color: #727272;
+}
+.pw-label{
+    position: absolute;
+    width: 68px;
+    height: 40px;
+    left: 30px;
+    top: 464px;
+    font-size: 30px;
+    color: #727272;
+}
+.pw{
+    box-sizing: border-box;
+    position: absolute;
+    width: 873px;
+    height: 60px;
+    left: 30px;
+    top: 535px;  
+    background: #FFFFFF;
+    border: 1px solid #000000;
+
+    font-size: 30px;
+}
+.loginbutton{
+    position: absolute;
+    width: 873px;
+    height: 90px;
+    left: 30px;
+    top: 836px;
+    background: #00A1FF;
+    font-size: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.orderList {
+    margin: auto;
+    box-sizing: content-box;
+    display: flex;
+    /* position: relative; */
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.status {
+    position: inherit;
+    width: 195px;
+    height: 60px;
+    left: 70%;
+    top: 50%;
+
+    background: #F80E0E;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.username{
+    position: inherit;
+    width: 195px;
+    height: 50px;
+    left: 70%;
+    top: 20%;
+    text-align: center;
+    font-size: 30px;
+    background: #FFFFFF;
+    color: #000000;
+}
+.barcodeimg{
+    position: inherit;
+    width: 200px;
+}
+
+.status300{
+    position: inherit;
+    width: 195px;
+    height: 50px;
+    left: 70%;
+    top: 50%;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    background: #88FA4E;
+    
+}
+
+.status200{ 
+    position: inherit;
+    width: 195px;
+    height: 50px;
+    left: 70%;
+    top: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    background: #FFB950;
+}
+
+.status100 {
+    position: inherit;
+    width: 195px;
+    height: 50px;
+    left: 70%;
+    top: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    background: #FAE94E;
+}
+.textArea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 500px; */
+}
+
+.statusArea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    position: inherit;
+    /* top: 30px; */
+    /* right: 48px; */
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    width: 480px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    color: #000000;
+}
+.address{
+    position: inherit;
+    margin-top: 15px;
+    /* right: 35%; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #000000;
+}
+.contact{
+    position: inherit;
+    margin-top: 15px;
+    /* right: 40%; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #000000;
+}
